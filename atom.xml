@@ -6,7 +6,7 @@
   <link href="https://imagineer233.github.io/atom.xml" rel="self"/>
   
   <link href="https://imagineer233.github.io/"/>
-  <updated>2024-09-09T11:14:02.583Z</updated>
+  <updated>2024-09-09T13:07:13.568Z</updated>
   <id>https://imagineer233.github.io/</id>
   
   <author>
@@ -17,13 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>第一章.编译器的概述</title>
+    <link href="https://imagineer233.github.io/posts/58d84e0c.html"/>
+    <id>https://imagineer233.github.io/posts/58d84e0c.html</id>
+    <published>2024-09-09T21:03:55.000Z</published>
+    <updated>2024-09-09T13:07:13.568Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-3语义分析（前两节在纸质笔记本上"><a href="#1-3语义分析（前两节在纸质笔记本上" class="headerlink" title="1.3语义分析（前两节在纸质笔记本上"></a>1.3语义分析（前两节在纸质笔记本上</h1><h2 id="主要任务"><a href="#主要任务" class="headerlink" title="主要任务"></a>主要任务</h2><ul><li><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909201950.png" alt=""></li></ul><ul><li><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909202216.png" alt=""></p></li><li><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909202308.png" alt=""></p></li></ul><p><strong><em>（一个字节是8个比特组成，一个int型是4个比特）</em></strong></p><ul><li><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909202655.png" alt=""></p><p>以上所有属性均记录在符号表中</p><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909202930.png" alt=""></p></li></ul><p>  <img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909203243.png" alt=""></p><h1 id="1-4中间代码生成和编译器后端概述"><a href="#1-4中间代码生成和编译器后端概述" class="headerlink" title="1.4中间代码生成和编译器后端概述"></a>1.4中间代码生成和编译器后端概述</h1><ul><li><h3 id="常用的中间表示形式有三地址码和语法树两种"><a href="#常用的中间表示形式有三地址码和语法树两种" class="headerlink" title="常用的中间表示形式有三地址码和语法树两种"></a>常用的中间表示形式有三地址码和语法树两种</h3><h4 id="三地址码（语法树此处不再赘述，会在后面细说）"><a href="#三地址码（语法树此处不再赘述，会在后面细说）" class="headerlink" title="三地址码（语法树此处不再赘述，会在后面细说）"></a>三地址码（语法树此处不再赘述，会在后面细说）</h4><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909203845.png" alt=""></p><p><img src="C:\Users\18781\AppData\Roaming\Typora\typora-user-images\image-20240909203902823.png" alt="image-20240909203902823"></p><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909204527.png" alt=""></p><p><strong><em>四元式表示的格式：（操作符，操作数，操作数，目标操作数）</em></strong></p><p> <strong><em>        数组部分：（操作符，基地址，偏移地址，目标操作数）</em></strong></p><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909205418.png" alt=""></p><p><img src="https://raw.githubusercontent.com/Imagineer233/image/main/20240909210026.png" alt=""></p></li></ul><h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-3语义分析（前两节在纸质笔记本上&quot;&gt;&lt;a href=&quot;#1-3语义分析（前两节在纸质笔记本上&quot; class=&quot;headerlink&quot; title=&quot;1.3语义分析（前两节在纸质笔记本上&quot;&gt;&lt;/a&gt;1.3语义分析（前两节在纸质笔记本上&lt;/h1&gt;&lt;h2 id=&quot;主</summary>
+      
+    
+    
+    
+    
+    <category term="编译原理学习笔记" scheme="https://imagineer233.github.io/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>李牧深度学习（一）</title>
     <link href="https://imagineer233.github.io/posts/c31b427f.html"/>
     <id>https://imagineer233.github.io/posts/c31b427f.html</id>
     <published>2024-09-09T18:48:06.000Z</published>
-    <updated>2024-09-09T11:14:02.583Z</updated>
+    <updated>2024-09-09T13:07:13.568Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="数据操作"><a href="#数据操作" class="headerlink" title="数据操作"></a>数据操作</h1><h2 id="N维数组"><a href="#N维数组" class="headerlink" title="N维数组"></a>N维数组</h2><p>-N维数组是深度学习中运用最多的一种数据结构<br>！<a href="https://img.picui.cn/free/2024/09/09/66ded597c37f3.png">截图1</a><br><img src="https://img.picui.cn/free/2024/09/09/66ded5981d5f0.png" alt="截图2"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="数据操作"><a href="#数据操作" class="headerlink" title="数据操作"></a>数据操作</h1><h2 id="N维数组"><a href="#N维数组" class="headerlink" title="N维数组"></a>N维数组</h2><p>-N维数组是深度学习中运用最多的一种数据结构<br>！<a href="https://img.picui.cn/free/2024/09/09/66ded597c37f3.png">截图1</a><br>![截图2](<a href="https://img.picui.cn/free/2024/09/09/66ded5981d5f0.png">https://img.picui.cn/free/2024/09/09/66ded5981d5f0.png</a></p>]]></content>
     
     
       
